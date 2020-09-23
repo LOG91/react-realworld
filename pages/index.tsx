@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import Test from './Test';
+import Header from '../components/Home/Header';
 
 export default function Home() {
   return (
@@ -9,10 +9,7 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header>
-        <div>Conduit</div>
-        <Test />
-      </header>
+      <Header />
 
       <footer className={styles.footer}>
         <a

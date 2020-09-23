@@ -3,6 +3,8 @@ const Test = () => {
     name: string;
     age: number;
   }
+  const a = 123;
+  console.log(a);
 
   const foo: boolean = true;
 
